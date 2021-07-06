@@ -1,0 +1,25 @@
+{
+	"name": "parcel-template",
+	"version": "1.0.0",
+	"main": "src/index.tsx",
+	"repository": "git@github.com:z9956/parcel-template.git",
+	"author": "9956 <zhz995617@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"dev": "parcel public/index.html --open --no-cache",
+		"build": "parcel build public/index.html",
+		"prepare": "husky install"
+	},
+	"devDependencies": {
+		"@types/react": "^17.0.11",
+		"@types/react-dom": "^17.0.8",
+		"husky": "^6.0.0",
+		"parcel": "^2.0.0-beta.3.1",
+		"prettier": "^2.3.1",
+		"pretty-quick": "^3.1.1"
+	},
+	"dependencies": {
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	}
+}
