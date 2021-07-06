@@ -1,8 +1,7 @@
 {
-	"name": "parcel-template",
+	"name": "react-18-demo",
 	"version": "1.0.0",
-	"main": "src/index.tsx",
-	"repository": "git@github.com:z9956/parcel-template.git",
+	"repository": "git@github.com:z9956/react-18-demo.git",
 	"author": "9956 <zhz995617@gmail.com>",
 	"license": "MIT",
 	"scripts": {
@@ -19,7 +18,7 @@
 		"pretty-quick": "^3.1.1"
 	},
 	"dependencies": {
-		"react": "^17.0.2",
-		"react-dom": "^17.0.2"
+		"react": "^18.0.0-alpha-ed6c091fe-20210701",
+		"react-dom": "^18.0.0-alpha-ed6c091fe-20210701"
 	}
 }
