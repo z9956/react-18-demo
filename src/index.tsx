@@ -1,11 +1,11 @@
-import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 
 import App from './pages/App';
 
-ReactDOM.render(
-	<StrictMode>
-		<App />
-	</StrictMode>,
-	document.getElementById('root'),
-);
+const container = document.getElementById('root');
+
+if (container) {
+	const root = ReactDOM.createRoot(container);
+
+	root.render(<App />);
+}

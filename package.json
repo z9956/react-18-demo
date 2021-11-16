@@ -10,15 +10,15 @@
 		"prepare": "husky install"
 	},
 	"devDependencies": {
-		"@types/react": "^17.0.11",
-		"@types/react-dom": "^17.0.8",
-		"husky": "^6.0.0",
-		"parcel": "^2.0.0-beta.3.1",
-		"prettier": "^2.3.1",
+		"@types/react": "^17.0.35",
+		"@types/react-dom": "^17.0.11",
+		"husky": "^7.0.4",
+		"parcel": "^2.0.1",
+		"prettier": "^2.4.1",
 		"pretty-quick": "^3.1.1"
 	},
 	"dependencies": {
-		"react": "^18.0.0-alpha-ed6c091fe-20210701",
-		"react-dom": "^18.0.0-alpha-ed6c091fe-20210701"
+		"react": "^18.0.0-beta-96ca8d915-20211115",
+		"react-dom": "^18.0.0-beta-96ca8d915-20211115"
 	}
 }
