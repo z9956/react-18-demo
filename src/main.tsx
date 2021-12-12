@@ -4,8 +4,6 @@ import App from './pages/App';
 
 const container = document.getElementById('root');
 
-if (container) {
-	const root = ReactDOM.createRoot(container);
+const root = ReactDOM.createRoot(container);
 
-	root.render(<App />);
-}
+container && root.render(<App />);
